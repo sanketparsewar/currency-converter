@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Asset&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  max-width: fit-content;
+  display: block;
+  margin: 0 auto 5px auto;
+}
+.exchangeImage {
+  display: block;
+  margin: 0 auto;
+  width: 8rem;
+}
+
+.container {
+  /* border: 1px solid peru; */
+  box-shadow: 0 0 10px grey;
+  padding: 10px;
+  border-radius: 1rem;
+  min-height: 45vh;
+  min-width: 40vh;
+}
+.amount p {
+  font-size: 1.2rem;
+}
+form {
+  margin: 10px 40px 20px 40px;
+}
+form select,
+button,
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin: 5px 0;
+}
+form input,
+button,
+select {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+}
+.dropdown {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.from {
+  text-align: center;
+}
+.to {
+  text-align: center;
+}
+
+.msg {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  text-align: center;
+}
+.btn {
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  background-color: rgb(43, 157, 227);
+}
+.btn:hover {
+  background-color: rgb(14, 76, 115);
+}
